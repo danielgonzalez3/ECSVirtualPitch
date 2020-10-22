@@ -1,0 +1,87 @@
+<!-- Innovation Challenge HTML */-->
+<html>
+<style>
+	div.tmp {
+	  position: absolute;
+	  right:150px;
+	  width: 355px;
+	  height: 395px;
+	  border: 2px solid white;
+	}
+</style>
+<head>
+<title>Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<div class="jumbotron">
+		<font size="5">
+			      
+    </div>
+<div style = "position:absolute; left:100; top: 200px;">
+				<button onclick="window.location.href='file:///C:/Users/Mirey/Desktop/InnovationChallenge/GUI.html';">
+					Home Page 
+				</button>
+</div>	
+<div class="container">
+	<h1 align="center"> Medical Diagnostic Database</h1><br>
+	<h3 align="center"> Insert Patient Medical Information</h3><br>
+</div>
+<center>
+<form>
+  <label for="pAge">Patient's Age:</label>
+  <input type="text" id="pAge" name="pAge"><br><br>
+  
+  <label for="DOB">Date of Birth:</label>
+  <input type="text" id="DOB" name="DOB"><br><br>
+  
+  <label for="gender"> Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br><br>
+  
+  <label for="ethnicity"> Ethnicity:</label>
+   <input type="checkbox" id="ethnicity1" name="ethnicity1" value="Hispanic or Latino">
+  <label for="ethnicity1"> Hispanic or Latino</label><br>
+  <input type="checkbox" id="ethnicity2" name="ethnicity2" value="American Indian or Alaska Native">
+  <label for="ethnicity2"> American Indian or Alaska Native</label><br>
+  <input type="checkbox" id="ethnicity3" name="ethnicity3" value="Asian">
+  <label for="ethnicity3"> Asian</label><br>
+   <input type="checkbox" id="ethnicity4" name="ethnicity4" value="Black or African American">
+  <label for="ethnicity4"> Black or African American</label><br>
+  <input type="checkbox" id="ethnicity5" name="ethnicity5" value="Native Hawaiian or Pacific Islander">
+  <label for="ethnicity5"> Native Hawaiian or Other Pacific Islander</label><br>
+  <input type="checkbox" id="ethnicity6" name="ethnicity6" value="white">
+  <label for="ethnicity6"> white </label>
+</form>
+
+<form action="/action_page.php">
+  <label for="history">Medical History:</label><br>
+  <select id="history" name="history" size="4" multiple>
+    <option value="eye">Eye Problem</option>
+    <option value="CVS">CVS Condition</option>
+    <option value="respiratory">Respiratory Condition</option>
+    <option value="ear">Ear Condition</option>
+	<option value="neck">Neck Condition</option>
+	<option value="skin">Skin Conditon</option>
+	<option value="gi">GI Condition</option>
+	<option value="heart">Heart Condition</option>
+  </select><br><br>
+</form>
+<label for="listsystoms">List the Systoms:</label><br>
+
+<textarea id="listsystoms" name="listsystoms" rows="4" cols="50" placeholder="List;">
+
+</textarea><br><br>
+<div style = "position:center-right; left:100; top: 200px;">
+				<button onclick="window.location.href='file:///C:/Users/Mirey/Desktop/InnovationChallenge/ResultsOfSearch.html';">
+					Submit 
+				</button>
+
+
+<center>
+</body>
+</html>
+
