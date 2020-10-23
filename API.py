@@ -17,7 +17,7 @@ while(1):
     if response.status_code == 200:
         Output = json.loads(response.text)
         print(Output.get('data'))
-        outFile = open("Output.txt", "w")
+        outFile = open("Output.html", "w")
         write = outFile.write(Output.get('data'))
         outFile.close()
     elif response.status_code == 500:
