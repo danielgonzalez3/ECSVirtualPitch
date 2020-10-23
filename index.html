@@ -16,6 +16,11 @@
 </head>
 <body>
 	<div class="jumbotron">
+	  <div style = "position:absolute; left: 20px; top: 30px;">
+		  <button onclick="window.location.href='./index.html';" class="btn btn-info">
+			Home Page 
+		  </button>
+	  </div>
 		<font size="5">
 			      
     </div>
@@ -30,16 +35,22 @@
 			as early as possible. The Medical Diagnostic Database uses machine learning on a list of
 			symptoms to classify them into the most likely disease. This database is meant to aid 
 			professionals in their decision and is not an absolute diagnosis.
+		<br><br>
+		    The follow searchbar is for a general search of symptoms of a known disease. In order to
+			find a disease, click Advanced Search and fill out the information.
 		</p>
 	</div>
 	</div>
-<form align="center" action="/action_page.php">
-  <input type="search" id="msearch" name="msearch" placeholder="Enter Medical Condition">
-  <input type="submit" value="Search"> <br>
+	<center><image src="./images/HomePic.png" alt="Diagnostic Image" width = "400px" height="400px" ></image>
+	<div id="SearchBar">
+		<script async src="https://cse.google.com/cse.js?cx=b20afb8e702a18bcc"></script>
+		<div class="gcse-search"></div>
+	</div>
   <div  style = "font-color:blue;">
 	<a href="Advance%20Search.html"> Advanced Search</a>
   </div>
-  <image src="./images/HomePic.png" alt="Diagnostic Image" width = "400px" height="400px" > <br>
+  </center>
+   <br>
 </form>
 </body>
 </html>
