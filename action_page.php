@@ -1,6 +1,6 @@
 <?php 
 	$newLine = "\n";
-    $Input = $_POST["firstName"].$newLine.$_POST["lastName"];
+    $Input = $_POST["firstName"].'/'.$_POST["lastName"];
 	$var3 = $_POST["lastName"];	
     $var4 = $_POST["pAge"];
 	$var5 = $_POST["birthday"];
