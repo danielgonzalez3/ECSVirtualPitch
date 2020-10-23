@@ -1,5 +1,6 @@
 <?php 
-    $Input = $_POST["firstName"]. ' ' .\n. ' ' .$_POST["lastName"] ;
+	$newLine = "\n";
+    $Input = $_POST["firstName"].$newLine.$_POST["lastName"];
 	$var3 = $_POST["lastName"];	
     $var4 = $_POST["pAge"];
 	$var5 = $_POST["birthday"];
