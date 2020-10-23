@@ -1,4 +1,4 @@
 First Name: Daniel
 Last Name: Gonzalez
-AGE: 22
-Predicted prognosis: AIDS
+AGE: 21
+Predicted prognosis: Acne
